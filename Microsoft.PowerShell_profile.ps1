@@ -1,4 +1,6 @@
-oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/gruvbox.omp.json' | Invoke-Expression
+#oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/gruvbox.omp.json' | Invoke-Expression
+
+Invoke-Expression (&starship init powershell)
 
 Import-Module PSReadLine
 
